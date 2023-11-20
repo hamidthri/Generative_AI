@@ -27,7 +27,6 @@ model_name = 'google/flan-t5-base'
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True)
 
-
 sentence = "What time is it, Tom?"
 sentence_encoded = tokenizer(sentence, return_tensors='pt')
 sentence_decoded = tokenizer.decode(
