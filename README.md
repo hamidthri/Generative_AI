@@ -17,4 +17,9 @@ __few_shot.py__: Investigates the impact of multiple prompts on summarization ou
 
 Feel free to explore and run these files to observe how different prompt engineering strategies affect the quality of the summarization results.
 
-Note: Ensure you have the necessary dependencies installed, and consider creating a virtual environment to manage your project's dependencies.
+## Note
+Ensure you have the necessary dependencies installed, and consider creating a virtual environment to manage your project's dependencies.
+
+```
+pip install -r requirements.txt
+```
